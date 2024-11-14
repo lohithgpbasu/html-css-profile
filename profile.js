@@ -1,13 +1,13 @@
 //declaring a varaible using let keyword
 let a = "Ball";
 a = "Bat";
-console.log(a);
+alert(a);
 
 //declaring a varaible using const keyword
 const b = "Apple";
 b = "Banana";
-console.log(b)
+alert(b);
 
 var c = "Cat";
 c = "Dog";
-console.log(c);
+alert(c);
