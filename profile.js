@@ -55,3 +55,6 @@ while(i <= 5){
     i++;
 }*/
 
+let greetingElement = document.getElementById("greetings");
+let newGreeting = prompt("Enter your name:", greetingElement.textContent);
+greetingElement.textContent = "Welcome..! " + newGreeting;
